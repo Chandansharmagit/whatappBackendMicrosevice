@@ -1,0 +1,71 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MicroserviceApplication",
+            "request": "launch",
+            "mainClass": "microservice_controller.microservice.MicroserviceApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "MicroservicesApplication",
+            "request": "launch",
+            "mainClass": "microservices.microservices.MicroservicesApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviceWEbApplication<com.microservice_api_questions-microservice_websites_Questions>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.springMICRO1.Microservice_WEb.MicroserviceWEbApplication",
+            "projectName": "com.microservice_api_questions-microservice_websites_Questions",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53069 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=com.microservice_api_questions-microservice_websites_Questions"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiGatewayApplication<com.micorservice_ApiGateway-com.micorservice_ApiGateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ApiGateway.ApiGateway.ApiGatewayApplication",
+            "projectName": "com.micorservice_ApiGateway-com.micorservice_ApiGateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53067 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=com.micorservice_ApiGateway-com.micorservice_ApiGateway"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AuthenticationsApplication<authentications-authentications>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "authentications.authentications.AuthenticationsApplication",
+            "projectName": "authentications-authentications",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53356 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=authentications-authentications"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AuthenticationsApplication<authentications>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "authentications.authentications.AuthenticationsApplication",
+            "projectName": "authentications",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AuthenticationsApplication<authentications-authentications>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "AuthenticationsApplication",
+            "projectName": "authentications-authentications",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
